@@ -1,4 +1,4 @@
-class sherlogcli < Formula
+class Sherlogcli < Formula
   desc "CLI for the Sherlog Server"
   homepage "https://github.com/EthDevOps/sherlog"
   url "https://github.com/EthDevOps/sherlog/releases/download/v0.0.4/sherlog-cli-bin.zip"
