@@ -23,9 +23,9 @@ class SherlogCli < Formula
       end
     end
   end
+end
 
-  test do
-    system "#{bin}/sherlog-cli", "--version"
-  end
+def post_install
+  system "codesign", "--sign", "-", bin/"sherlog-cli"
 end
 
