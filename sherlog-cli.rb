@@ -23,9 +23,9 @@ class SherlogCli < Formula
       end
     end
   end
+  def post_install
+    system "codesign", "--sign", "-", bin/"sherlog-cli"
+  end
 end
 
-def post_install
-  system "codesign", "--sign", "-", bin/"sherlog-cli"
-end
 
