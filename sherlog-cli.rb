@@ -1,8 +1,8 @@
 class SherlogCli < Formula
   desc "CLI for the Sherlog Server"
   homepage "https://github.com/EthDevOps/sherlog"
-  url "https://github.com/EthDevOps/sherlog/releases/download/v0.0.4/sherlog-cli-bin.zip"
-  sha256 "a34c4297fdf91e92879dc76af8add4819ce17d40a52a31cc9fa38a5e7041fda3"
+  url "https://github.com/EthDevOps/sherlog/releases/download/v0.0.6/sherlog-cli-bin.zip"
+  sha256 "1aace702d94dd182836e6d318923d3b29595df1d082c4c2d047bf7cb57d6e0bb"
   license "MIT"
 
   def install
