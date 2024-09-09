@@ -8,18 +8,18 @@ class SherlogCli < Formula
   def install
     on_macos do
       on_arm do
-        bin.install "publish/osx-arm64/sherlog-cli"
+        bin.install "osx-arm64/sherlog-cli"
       end
       on_intel do
-        bin.install "publish/osx-x64/sherlog-cli"
+        bin.install "osx-x64/sherlog-cli"
       end
     end
     on_linux do
       on_arm do
-        bin.install "publish/linux-arm64/sherlog-cli"
+        bin.install "linux-arm64/sherlog-cli"
       end
       on_intel do
-        bin.install "publish/linux-x64/sherlog-cli"
+        bin.install "linux-x64/sherlog-cli"
       end
     end
   end
